@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 30s
+    cluster:
+      nodes: 127.0.0.1:6380, 127.0.0.1:6381, 127.0.0.1:6382
